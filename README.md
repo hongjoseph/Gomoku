@@ -1,6 +1,6 @@
 # Gomoku Club
 
-Gomoku with computer opponents, local two-player games, online club play, daily puzzles, and customizable boards and stones.
+Gomoku with computer opponents, local two-player games, online club play, free daily puzzles, and customizable boards and stones.
 
 ## Development
 
@@ -9,7 +9,7 @@ npm run build
 npm run dev
 ```
 
-The server uses Cloudflare Workers and D1. Database migrations are in `drizzle/`. Authentication requires Supabase environment configuration; no credentials are included.
+Cloudflare Workers and D1 power the server. Database migrations are in `drizzle/`. Authentication requires Supabase environment configuration. Credentials are not included.
 
 ## Checks
 
